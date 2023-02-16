@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+}
+
+.containter{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+
+}
+
+ul li{
+    padding: 0  20px;
+}
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: calc(1920px/1.6);
+    height: calc(1080px/1.6);
+
+}
